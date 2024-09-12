@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>yazidachmad-portfolio</title>  
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="css/custom.css">
+	<script src="js/modernizr.js"></script> <!-- Modernizr -->
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body id="page-top" class="politics_version">
+
+    <!-- LOADER -->
+    <div id="preloader">
+        <div id="main-ld">
+			<div id="loader"></div>  
+		</div>
+    </div><!-- end loader -->
+    <!-- END LOADER -->
+	
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">
+            <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="60"
+            height="50"
+            viewBox="0 0 60 50"
+            fill="none"
+          >
+            <g clip-path="url(#clip0_57_6)">
+              <path
+                d="M15.521 0.27523C14.2825 2.20183 12.5394 5.43578 12.677 5.57339C12.7687 5.66514 19.1449 5.77982 26.8284 5.80275C39.5806 5.84862 40.7962 5.87156 40.8651 6.2156C40.9109 6.44495 40.4981 7.29358 39.9935 8.1422C39.466 9.01376 38.9384 9.93119 38.8238 10.1835C38.6861 10.4587 38.4568 10.9174 38.2733 11.2156C38.1128 11.5367 38.021 11.8807 38.0669 11.9725C38.2504 12.2706 51.232 12.1789 51.232 11.8807C51.232 11.7431 50.9339 11.1239 50.5439 10.5046C50.154 9.90826 49.8559 9.31193 49.8559 9.19725C49.8559 9.1055 49.5577 8.57798 49.1678 8.07339C48.8008 7.54587 48.4797 7.04128 48.4797 6.97248C48.4797 6.88073 48.0439 6.07798 47.4935 5.18349C46.943 4.28899 46.4384 3.3945 46.3467 3.21101C46.255 3.02752 45.9797 2.54587 45.7274 2.1789C45.4751 1.78899 45.154 1.23853 45.0394 0.917431C44.9017 0.619266 44.6495 0.275229 44.5118 0.183486C44.3513 0.0917429 37.8146 0 29.9706 0C18.8008 0 15.6586 0.0688075 15.521 0.27523ZM8.43386 12.6835C8.25037 12.7982 7.99808 13.0963 7.86046 13.3716C7.74578 13.6468 7.5623 14.0367 7.42468 14.2202C6.78248 15.2064 5.1311 18.0734 5.1311 18.211C5.1311 18.3028 4.94762 18.6468 4.69532 18.9908C4.46597 19.3349 3.68615 20.6422 2.9522 21.9037C2.21826 23.1651 1.53019 24.2202 1.41551 24.2661C1.09441 24.4037 1.20909 25.0917 1.73661 25.9174C2.69991 27.4312 2.81459 27.6376 3.04395 28.1422C3.45679 29.0596 4.44303 30.5046 4.64945 30.5046C4.76413 30.5046 5.10817 30 5.42927 29.4037C6.55312 27.2706 9.25954 22.5688 9.97055 21.5138C10.2228 21.1697 10.4063 20.8257 10.4063 20.7569C10.4063 20.6881 11.1861 19.3349 12.1265 17.7523C13.0669 16.1697 13.8467 14.8165 13.8467 14.7248C13.8467 14.656 14.1219 14.1972 14.443 13.7156C14.7871 13.2339 14.9935 12.7523 14.9017 12.6605C14.6495 12.4312 8.8467 12.4541 8.43386 12.6835ZM23.755 12.6147C22.7228 12.7294 22.7228 12.7294 21.6219 14.9083C21.3467 15.4817 20.7733 16.445 20.3834 17.0872C19.9706 17.7064 19.3054 18.8532 18.8926 19.6101C18.4797 20.367 18.021 21.1468 17.8834 21.3303C17.7458 21.5138 17.4247 22.0413 17.1724 22.4771C16.3696 23.922 15.7045 25.0917 15.2228 25.9174C14.3972 27.3165 13.8008 28.3486 11.1403 32.9817L8.5256 37.5L8.93844 38.3028C9.1678 38.7385 9.78707 39.8165 10.3146 40.711C10.8192 41.5826 11.3238 42.5459 11.4155 42.8211C11.5073 43.1193 11.6678 43.3486 11.7595 43.3486C11.8513 43.3486 12.1495 43.7844 12.4476 44.3119C12.7228 44.8624 13.1586 45.5963 13.4109 45.9862C13.6403 46.3532 13.9843 46.9725 14.1678 47.3624C14.3513 47.7294 14.81 48.4862 15.1999 49.0367L15.9109 50H44.3742L44.7641 49.3119C44.9706 48.945 45.2229 48.6239 45.3375 48.6239C45.4293 48.6239 45.4981 48.5092 45.4981 48.3716C45.4981 48.2339 45.8421 47.5229 46.2779 46.8119C46.6907 46.1009 47.3329 45 47.677 44.3807C48.021 43.7385 49.0073 42.0413 49.8559 40.5963C55.0852 31.6743 54.9935 31.8578 54.6495 31.6284C54.466 31.5138 54.0302 31.4679 53.6632 31.5367C53.2962 31.6055 51.943 31.6514 50.6586 31.6514H48.2962L46.8742 34.1055C46.0944 35.4817 44.5806 38.0505 43.5256 39.8394C42.4706 41.6284 41.599 43.1881 41.599 43.3257C41.599 44.0138 40.5439 44.0826 29.8329 44.0596C23.8926 44.0367 19.0302 44.0138 19.0073 43.9679C18.4109 43.211 15.4522 37.867 15.4522 37.5917C15.4522 37.3624 15.9109 36.3991 16.4843 35.4817C17.0577 34.5413 17.5164 33.6927 17.5164 33.6239C17.5164 33.5321 17.7687 33.1193 18.0898 32.7064C18.4109 32.2936 18.6632 31.8807 18.6632 31.789C18.6632 31.6972 19.1907 30.7569 19.81 29.6789C20.4522 28.6009 20.9568 27.7064 20.9568 27.6606C20.9568 27.5688 23.5715 23.0963 24.5118 21.6055C24.8559 21.078 25.3834 20.1606 25.6816 19.5642C26.0027 18.9679 26.7825 17.6376 27.4017 16.5826C28.021 15.5275 28.5256 14.6101 28.5256 14.5183C28.5256 14.4495 28.8008 14.0367 29.1219 13.6009C29.443 13.1651 29.6495 12.7523 29.5806 12.6605C29.3972 12.4771 25.154 12.4541 23.755 12.6147Z"
+                fill="white"
+              />
+              <path
+                d="M33.5945 19.4723C33.2734 19.8392 32.7458 20.642 32.4247 21.2383C31.6679 22.7291 30.9798 23.9677 25.2917 33.7613C24.7871 34.5869 24.3972 35.3668 24.3972 35.4585C24.3972 35.5502 24.1678 35.8713 23.9156 36.1466C23.2963 36.8117 23.4798 37.4998 24.2367 37.2934C24.5119 37.2246 27.5853 37.1558 31.0715 37.1558H37.3789L37.8835 36.1695C38.5257 34.931 39.3284 33.5319 39.8559 32.7521C40.5669 31.6741 40.3605 31.5824 36.989 31.5594C33.9844 31.5365 33.9156 31.5365 33.8468 31.0319C33.8009 30.7108 34.2367 29.7246 34.9706 28.509C35.6358 27.408 36.3697 26.1236 36.5991 25.642L37.0119 24.7704H47.7917C54.5578 24.7704 58.5715 24.6787 58.5715 24.5411C58.5715 24.2888 55.911 19.7704 55.4064 19.197C55.0853 18.8301 54.3284 18.8071 44.6266 18.8071L34.1908 18.8301L33.5945 19.4723Z"
+                fill="white"
+              />
+            </g>
+            <defs>
+              <clipPath id="clip0_57_6">
+                <rect width="59.6659" height="50" fill="white" />
+              </clipPath>
+            </defs>
+          </svg>
+		</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav text-uppercase ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger active" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#testimonials">Testimonials</a>
+            </li>
+			<li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#blog">Blog</a>
+            </li>
+			<li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Contect Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+	
+	<section id="home" class="main-banner parallaxie" style="background: url('images/foto-baner.png')">
+		<div class="heading">
+			<h1>hello i'm yazid achmad</h1>
+			<p>قد يمر الإنسان بالكثير من الصعاب والتحديات في حياته، ولكنه يجب أن يظل قويا وثابتا فيما يؤمن به <br>A person may face many difficulties and challenges in his life, but he must remain strong and firm in what he believes.
+            </p>
+			<h3 class="cd-headline clip is-full-width">
+				<span>Expert in </span>
+				<span class="cd-words-wrapper">
+					<b class="is-visible">Web Developer</b>
+					<b>Web Design</b>
+					<b>Creative Design</b>
+					<b>Graphic Design</b>
+				</span>
+			</h3>
+		</div>
+	</section>
+
+	<svg id="clouds" class="hidden-xs" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 85 100" preserveAspectRatio="none">
+        <path d="M-5 100 Q 0 20 5 100 Z
+            M0 100 Q 5 0 10 100
+            M5 100 Q 10 30 15 100
+            M10 100 Q 15 10 20 100
+            M15 100 Q 20 30 25 100
+            M20 100 Q 25 -10 30 100
+            M25 100 Q 30 10 35 100
+            M30 100 Q 35 30 40 100
+            M35 100 Q 40 10 45 100
+            M40 100 Q 45 50 50 100
+            M45 100 Q 50 20 55 100
+            M50 100 Q 55 40 60 100
+            M55 100 Q 60 60 65 100
+            M60 100 Q 65 50 70 100
+            M65 100 Q 70 20 75 100
+            M70 100 Q 75 45 80 100
+            M75 100 Q 80 30 85 100
+            M80 100 Q 85 20 90 100
+            M85 100 Q 90 50 95 100
+            M90 100 Q 95 25 100 100
+            M95 100 Q 100 15 105 100 Z">
+        </path>
+    </svg>
+
+    <div id="about" class="section wb">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="message-box">                        
+                        <h2>About me</h2>
+                        <p>lets me introduce myself, name is Yazid achmad al-hasir ,  you can call me yazid, Im a new student at
+                            IDN Bording School in Sentul city, bogor . I was graduated from sa’adah addaroin in cianjur,
+                             .Im from east java, sidoarjo, I live in sidoarjo .Im 17 years old. I was born in putat village ,11 March 2007.Now I studiying about HTML, CSS and Js.
+                            
+                            about family,
+                             I have 1 older sister and both parents, and I love them very much.
+                            </p>
+						<p>Never regrets being a good person, to the wrong people. Your behavior says everything about you, and their behavior says enough about them.</p>
+
+                        <a href="#" class="sim-btn btn-hover-new" data-text="Download CV"><span>Download CV</span></a>
+                    </div><!-- end messagebox -->
+                </div><!-- end col -->
+
+                <div class="col-md-6">
+                    <div class="right-box-pro wow fadeIn">
+                        <img src="images/foto-1.png" alt="">
+                    </div><!-- end media -->
+                </div><!-- end col -->
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end section -->
+	
+    <div id="services" class="section lb">
+        <div class="container">
+            <div class="section-title text-left">
+                <h3>Services</h3>
+                <p>“Success and failure are both part of life. Both are not permanent.”</p>
+            </div><!-- end title -->
+
+            <div class="row">
+				<div class="col-md-4">
+                    <div class="services-inner-box">
+						<div class="ser-icon">
+							<i class="flaticon-seo"></i>
+						</div>
+						<h2>Web Development</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+                </div><!-- end col -->
+                <div class="col-md-4">
+                    <div class="services-inner-box">
+						<div class="ser-icon">
+							<i class="flaticon-development"></i>
+						</div>
+						<h2>Responsive Design</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+                </div><!-- end col -->
+				<div class="col-md-4">
+                    <div class="services-inner-box">
+						<div class="ser-icon">
+							<i class="flaticon-process"></i>
+						</div>
+						<h2>Creative Design</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+                </div><!-- end col -->
+				<div class="col-md-4">
+                    <div class="services-inner-box">
+						<div class="ser-icon">
+							<i class="flaticon-discuss-issue"></i>
+						</div>
+						<h2>Support</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+                </div><!-- end col -->
+				<div class="col-md-4">
+                    <div class="services-inner-box">
+						<div class="ser-icon">
+							<i class="flaticon-idea"></i>
+						</div>
+						<h2>Web Idea</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+                </div><!-- end col -->
+				<div class="col-md-4">
+                    <div class="services-inner-box">
+						<div class="ser-icon">
+							<i class="flaticon-idea-1"></i>
+						</div>
+						<h2>Graphic Design</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+					</div>
+                </div><!-- end col -->
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end section -->
+	
+	<div id="portfolio" class="section lb">
+		<div class="container">
+			<div class="section-title text-left">
+                <h3>Portfolio</h3>
+                <p>"We make a living by what we get, but we make a life by what we give."</p>
+            </div><!-- end title -->
+			
+			<div class="gallery-menu row">
+				<div class="col-md-12">
+					<div class="button-group filter-button-group text-left">
+						<button class="active" data-filter="*">All</button>
+						<button data-filter=".gal_a">MOUNTAIN </button>
+						<!-- <button data-filter=".gal_b">CREATIVE DESIGN</button>
+						<button data-filter=".gal_c">Graphic Design</button> -->
+					</div>
+				</div>
+			</div>
+			
+			<div class="gallery-list row">
+				<div class="col-md-4 col-sm-6 gallery-grid gal_a gal_b">
+					<div class="gallery-single fix">
+						<img src="images/img-1.png" class="img-fluid" alt="Image">
+						<div class="img-overlay">
+							<a href="images/img-1.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-4 col-sm-6 gallery-grid gal_c gal_b">
+					<div class="gallery-single fix">
+						<img src="images/Screenshot 2024-09-09 142946.png" class="img-fluid" alt="Image">
+						<div class="img-overlay">
+							<a href="images/Screenshot 2024-09-09 142946.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-4 col-sm-6 gallery-grid gal_a gal_c">
+					<div class="gallery-single fix">
+						<img src="images/img-3.png" class="img-fluid" alt="Image">
+						<div class="img-overlay">
+							<a href="images/img-3.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-4 col-sm-6 gallery-grid gal_b gal_a">
+					<div class="gallery-single fix">
+						<img src="images/img-4.png" class="img-fluid" alt="Image">
+						<div class="img-overlay">
+							<a href="images/img-4.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-4 col-sm-6 gallery-grid gal_a gal_c">
+					<div class="gallery-single fix">
+						<img src="images/img-2.png" class="img-fluid" alt="Image">
+						<div class="img-overlay">
+							<a href="images/img-2.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-md-4 col-sm-6 gallery-grid gal_c gal_a">
+					<div class="gallery-single fix">
+						<img src="images/img-6.png" class="img-fluid" alt="Image">
+						<div class="img-overlay">
+							<a href="images/img-6.png" data-rel="prettyPhoto[gal]" class="hoverbutton global-radius"><i class="fa fa-picture-o"></i></a>
+						</div>
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
+	</div>
+	
+	 <div id="testimonials" class="section wb">
+        <div class="container">
+            <div class="section-title text-left">
+                <h3>Testimonials</h3>
+                <p>We thanks for all our awesome testimonials!  </p>
+            </div><!-- end title -->
+
+            <div class="row">
+                <div class="col-md-12 col-sm-12">
+                    <div class="testi-carousel owl-carousel owl-theme">
+                        <div class="testimonial clearfix">
+                            <div class="desc">
+                                <h3><i class="fa fa-quote-left"></i> Wonderful Support!</h3>
+                                <p class="lead">They have got my project on time with the competition with a sed highly skilled, and experienced & professional team.</p>
+                            </div>
+                            <div class="testi-meta">
+                                <img src="images/Ellipse 3.png" alt="" class="img-fluid alignleft">
+                                <h4>Misbachul Munir Al Haddad Alwi<small>- Teacher software development</small></h4>
+                            </div>
+                            <!-- end testi-meta -->
+                        </div>
+                        <!-- end testimonial -->
+
+                        <div class="testimonial clearfix">
+                            <div class="desc">
+                                <h3><i class="fa fa-quote-left"></i> Awesome Services!</h3>
+                                <p class="lead">Explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you completed.</p>
+                            </div>
+                            <div class="testi-meta">
+                                <img src="images/Ellipse 2.png" alt="" class="img-fluid alignleft">
+                                <h4>yazid achmad al-hasir <small>- DESIGNER</small></h4>
+                            </div>
+                            <!-- end testi-meta -->
+                        </div>
+                        <!-- end testimonial -->
+
+                        <div class="testimonial clearfix">
+                            <div class="desc">
+                                <h3><i class="fa fa-quote-left"></i> Great & Talented Team!</h3>
+                                <p class="lead">The master-builder of human happines no one rejects, dislikes avoids pleasure itself, because it is very pursue pleasure. </p>
+                            </div>
+                            <div class="testi-meta">
+                                <img src="images/Ellipse 1.png" alt="" class="img-fluid alignleft">
+                                <h4>rafie aswandi <small>- INDONESIA</small></h4>
+                            </div>
+                            <!-- end testi-meta -->
+                        </div>
+                        <!-- end testimonial -->
+                        <div class="testimonial clearfix">
+                            <div class="desc">
+                                <h3><i class="fa fa-quote-left"></i> Wonderful Support!</h3>
+                                <p class="lead">They have got my project on time with the competition with a sed highly skilled, and experienced & professional team.</p>
+                            </div>
+                            <div class="testi-meta">
+                                <img src="images/Ellipse 3.png" alt="" class="img-fluid alignleft">
+                                <h4>Misbachul Munir Al Haddad Alwi <small>- Teacher software development</small></h4>
+                            </div>
+                            <!-- end testi-meta -->
+                        </div>
+                        <!-- end testimonial -->
+
+                        <div class="testimonial clearfix">
+                            <div class="desc">
+                                <h3><i class="fa fa-quote-left"></i> Awesome Services!</h3>
+                                <p class="lead">Explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you completed.</p>
+                            </div>
+                            <div class="testi-meta">
+                                <img src="images/Ellipse 2.png" alt="" class="img-fluid alignleft">
+                                <h4>yazid achmad al-hasir <small>- DESIGNER</small></h4>
+                            </div>
+                            <!-- end testi-meta -->
+                        </div>
+                        <!-- end testimonial -->
+
+                        <div class="testimonial clearfix">
+                            <div class="desc">
+                                <h3><i class="fa fa-quote-left"></i> Great & Talented Team!</h3>
+                                <p class="lead">The master-builder of human happines no one rejects, dislikes avoids pleasure itself, because it is very pursue pleasure. </p>
+                            </div>
+                            <div class="testi-meta">
+                                <img src="images/Ellipse 1.png" alt="" class="img-fluid alignleft">
+                                <h4>rafie aswandi<small>- INDONESIA</small></h4>
+                            </div>
+                            <!-- end testi-meta -->
+                        </div><!-- end testimonial -->
+                    </div><!-- end carousel -->
+                </div><!-- end col -->
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end section -->
+	
+	<div id="blog" class="section lb">
+		<div class="container">
+			<div class="section-title text-left">
+                <h3>Blog</h3>
+                <p>"We make a living by what we get, but we make a life by what we give."</p>
+            </div><!-- end title -->
+			
+			<div class="row">
+				<div class="col-md-4 col-sm-6 col-lg-4">
+					<div class="post-box">
+						<div class="post-thumb">
+							<img src="uploads/blog-01.jpg" class="img-fluid" alt="post-img" />
+							<div class="date">
+								<span>06</span>
+								<span>Aug</span>
+							</div>
+						</div>
+						<div class="post-info">
+							<h4>Quisque auctor lectus interdum nisl accumsan venenatis.</h4>
+							<ul>
+                                <li>by yazid</li>
+                                <li>september 9, 2024</li>
+                                <li><a href="#"><b> Comments</b></a></li>
+                            </ul>
+							<p>Etiam materials ut mollis tellus, vel posuere nulla. Etiam sit amet massa sodales aliquam at eget quam. Integer ultricies et magna quis.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6 col-lg-4">
+					<div class="post-box">
+						<div class="post-thumb">
+							<img src="uploads/blog-02.jpg" class="img-fluid" alt="post-img" />
+							<div class="date">
+								<span>06</span>
+								<span>Aug</span>
+							</div>
+						</div>
+						<div class="post-info">
+							<h4>Quisque auctor lectus interdum nisl accumsan venenatis.</h4>
+							<ul>
+                                <li>by yazid</li>
+                                <li>september 9, 2024</li>
+                                <li><a href="#"><b> Comments</b></a></li>
+                            </ul>
+							<p>Etiam materials ut mollis tellus, vel posuere nulla. Etiam sit amet massa sodales aliquam at eget quam. Integer ultricies et magna quis.</p>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6 col-lg-4">
+					<div class="post-box">
+						<div class="post-thumb">
+							<img src="uploads/blog-03.jpg" class="img-fluid" alt="post-img" />
+							<div class="date">
+								<span>06</span>
+								<span>Aug</span>
+							</div>
+						</div>
+						<div class="post-info">
+							<h4>Quisque auctor lectus interdum nisl accumsan venenatis.</h4>
+							<ul>
+                                <li>by yazid</li>
+                                <li>september 9, 2024</li>
+                                <li><a href="#"><b> Comments</b></a></li>
+                            </ul>
+							<p>Etiam materials ut mollis tellus, vel posuere nulla. Etiam sit amet massa sodales aliquam at eget quam. Integer ultricies et magna quis.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+
+    <div id="contact" class="section db">
+        <div class="container">
+            <div class="section-title text-left">
+                <h3>Contact</h3>
+                <p>الصبر هو مفتاح النجاح في الحياة، فعلينا أن نتعلم أن نصبر على الصعاب ونستمر في السعي نحو أهدافنا</p>
+            </div><!-- end title -->
+
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="contact_form">
+                        <div id="message"></div>
+                        <form id="contactForm" name="sentMessage" novalidate="novalidate">
+							<div class="row">
+								<div class="col-md-6">
+									<div class="form-group">
+										<input class="form-control" id="name" type="text" placeholder="Your Name" required="required" data-validation-required-message="Please enter your name.">
+										<p class="help-block text-danger"></p>
+									</div>
+									<div class="form-group">
+										<input class="form-control" id="email" type="email" placeholder="Your Email" required="required" data-validation-required-message="Please enter your email address.">
+										<p class="help-block text-danger"></p>
+									</div>
+									<div class="form-group">
+										<input class="form-control" id="phone" type="tel" placeholder="Your Phone" required="required" data-validation-required-message="Please enter your phone number.">
+										<p class="help-block text-danger"></p>
+									</div>
+								</div>
+								<div class="col-md-6">
+									<div class="form-group">
+										<textarea class="form-control" id="message" placeholder="Your Message" required="required" data-validation-required-message="Please enter a message."></textarea>
+										<p class="help-block text-danger"></p>
+									</div>
+								</div>
+								<div class="clearfix"></div>
+								<div class="col-lg-12 text-center">
+									<div id="success"></div>
+									<button id="sendMessageButton" class="sim-btn btn-hover-new" data-text="Send Message" type="submit">Send Message</button>
+								</div>
+							</div>
+						</form>
+                    </div>
+                </div><!-- end col -->
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </div><!-- end section -->
+
+    <div class="copyrights">
+        <div class="container">
+            <div class="footer-distributed">
+                <div class="footer-left">
+                    <p class="footer-links">
+                        <a href="#">Home</a>
+                        <a href="#">Blog</a>
+                        <a href="#">Pricing</a>
+                        <a href="#">About</a>
+                        <a href="#">Faq</a>
+                        <a href="#">Contact</a>
+                    </p>
+                    <p class="footer-company-name">All Rights Reserved. &copy; 2024 <a href="#">yazidachmad-11</a> Design By : 
+					<a href="https://html.design/">html design</a></p>
+                </div>
+            </div>
+        </div><!-- end container -->
+    </div><!-- end copyrights -->
+
+    <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
+
+    <!-- ALL JS FILES -->
+    <script src="js/all.js"></script>
+	<!-- Camera Slider -->
+	<script src="js/jquery.mobile.customized.min.js"></script>
+	<script src="js/jquery.easing.1.3.js"></script> 
+	<script src="js/parallaxie.js"></script>
+	<script src="js/headline.js"></script>
+	<!-- Contact form JavaScript -->
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
+    <!-- ALL PLUGINS -->
+    <script src="js/custom.js"></script>
+    <script src="js/jquery.vide.js"></script>
+
+</body>
+</html>
